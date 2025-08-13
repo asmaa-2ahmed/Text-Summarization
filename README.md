@@ -53,6 +53,7 @@ Text Summarization/
     └── views/
         └── app.py             # Streamlit web app
         └── styles.css         # Custom CSS styling for Streamlit UI
+```
 ---
 
 ## 📦 Installation
@@ -151,4 +152,5 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 ## 🙌 Acknowledgments
 - Hugging Face for Transformers  
 - Streamlit for the simple web app framework  
+
 
