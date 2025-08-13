@@ -1,6 +1,6 @@
 ![Banner Image](src/image.png)
 
-🔍 **Offline Text Summarization System**  
+## 🔍 **Offline Text Summarization System**  
 A text summarization application powered by a fine-tuned **facebook/bart-large-cnn** model.  
 This project provides both:
 
@@ -151,3 +151,4 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 ## 🙌 Acknowledgments
 - Hugging Face for Transformers  
 - Streamlit for the simple web app framework  
+
