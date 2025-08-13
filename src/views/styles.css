@@ -1,0 +1,35 @@
+/* Light theme summary box */
+.summary-box {
+    border-left: 4px solid #1e88e5;
+    padding: 1rem;
+    background: linear-gradient(90deg, #e3f2fd 0%, #bbdefb 100%);
+    border-radius: 0 8px 8px 0;
+    margin-top: 1rem;
+}
+
+/* Dark theme summary box */
+@media (prefers-color-scheme: dark) {
+    .summary-box {
+        border-left: 4px solid #90caf9;
+        background: linear-gradient(90deg, #0d47a1 0%, #1e88e5 100%);
+        color: white;
+    }
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(90deg, #1e88e5 0%, #0d47a1 100%);
+    color: white !important;
+    border: none;
+}
+.stButton>button:hover {
+    background: linear-gradient(90deg, #1565c0 0%, #0d47a1 100%);
+    color: white !important;
+}
+
+/* Remove red/yellow alert colors */
+.stAlert [data-baseweb="notification"] {
+    background: linear-gradient(90deg, #e3f2fd 0%, #bbdefb 100%) !important;
+    border-left: 4px solid #1e88e5 !important;
+    color: black !important;
+}

@@ -1,0 +1,18 @@
+# Core ML
+transformers==4.42.4
+torch>=2.2.0
+accelerate>=0.30.0
+
+# App
+streamlit==1.36.0
+pydantic==2.7.0
+
+# Utils
+numpy>=1.24.0
+nltk>=3.8.1
+pdfplumber>=0.11.0
+python-dotenv>=1.0.1
+
+
+sentencepiece>=0.1.96
+rouge_score>=0.0.4
